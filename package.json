@@ -1,0 +1,31 @@
+{
+  "name": "fixture-demo",
+  "version": "1.0.0",
+  "description": "Demo project for a talk on Playwright fixtures",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "fixtures",
+    "e2e",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
